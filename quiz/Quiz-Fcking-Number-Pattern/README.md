@@ -1,4 +1,5 @@
 ### Soal 1
+
 ```js
 /*
 ================
@@ -27,30 +28,39 @@ function missingNum(arr) {
   //code here
 }
 
-
-console.log(missingNum([
-  [3, ' ', 5],
-  [1, ' ', 7],
-  [9, ' ', ' ']
-])) // [ 2, 4, 6, 8 ]
-console.log(missingNum([
-  [2, ' '],
-  [' ', 5]
-])) // [ 3, 4 ]
-console.log(missingNum([
-  [11, ' ', 13],
-  [17, ' ', 19],
-  [' ', 16, ' ']
-])) // [ 12, 14, 15, 18 ]
-console.log(missingNum([
-  [3, ' ', 5, 15],
-  [1, ' ', 7, 13],
-  [9, ' ', ' ', 12],
-  [' ', 16, ' ', ' ']
-])) // [ 2, 4, 6, 8, 10, 11, 14 ]
-console.log(missingNum([])) // []
+console.log(
+  missingNum([
+    [3, " ", 5],
+    [1, " ", 7],
+    [9, " ", " "],
+  ]),
+); // [ 2, 4, 6, 8 ]
+console.log(
+  missingNum([
+    [2, " "],
+    [" ", 5],
+  ]),
+); // [ 3, 4 ]
+console.log(
+  missingNum([
+    [11, " ", 13],
+    [17, " ", 19],
+    [" ", 16, " "],
+  ]),
+); // [ 12, 14, 15, 18 ]
+console.log(
+  missingNum([
+    [3, " ", 5, 15],
+    [1, " ", 7, 13],
+    [9, " ", " ", 12],
+    [" ", 16, " ", " "],
+  ]),
+); // [ 2, 4, 6, 8, 10, 11, 14 ]
+console.log(missingNum([])); // []
 ```
+
 ### Soal 2
+
 ```js
 /**
   Square Number
@@ -100,7 +110,6 @@ NOTE:
  - INPUT PARAMETER MINIMAL 3, JIKA KURANG DARI 3 MAKA RETURN 'Minimal input adalah 3'
 **/
 
-
 function squareNumber(num) {
   //code here
 }
@@ -115,17 +124,19 @@ console.log(squareNumber(4));
 //   [ #, x, o, x ] ]
 
 console.log(squareNumber(5));
-// [ 
+// [
 //   [ x, o, x, #, x ],
 //   [ o, x, #, x, o ],
 //   [ x, o, x, #, x ],
 //   [ #, x, o, x, # ],
-//   [ x, o, x, #, x ] 
+//   [ x, o, x, #, x ]
 // ]
 
 console.log(squareNumber(2)); // Minimal input adalah 3
 ```
+
 ### Soal 3
+
 ```js
 /**
   Square Number
